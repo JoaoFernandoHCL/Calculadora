@@ -123,7 +123,7 @@ for (const operationButton of operationButtons) {
   operationButton.addEventListener("click", () => {
     calculator.chooseOperation(operationButton.innerText);
     calculator.updateDisplay();
-  }):
+  });
 }
 
 allClearButton.addEventListener("click", () => {
