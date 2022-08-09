@@ -60,9 +60,6 @@ class Calculator {
         break;
       case "÷":
         result = floatPreviousOperand / floatCurrentOperand;
-        if (floatCurrentOperand==0){
-          result = 0;
-        }
         break;
       case "x":
         result = floatPreviousOperand * floatCurrentOperand;
